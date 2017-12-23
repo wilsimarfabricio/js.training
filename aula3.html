@@ -1,0 +1,25 @@
+<html>
+	<head>
+      <meta charset="UTF-8">
+      <title>aula 3 - JS</title>
+   </head>
+	<body>
+		<script>
+         function alerta(mensagem){
+            alert(mensagem);
+         }
+         alerta('Mensagem de alerta que sera exibida');
+
+         function metade(numero){
+            return numero/2
+         }
+         alerta('A metade de 15 eh: ' + metade(15));
+         //para o segundo parâmetro o default é 2
+         function dividir(num, por = 2){
+            return num/por;
+         }
+         alerta('A divisao de 15 por 3 eh ' + dividir(15,3));
+         alerta('A divisao de 15 por 2 eh ' + dividir(15));
+      </script>
+	</body>
+</html>
