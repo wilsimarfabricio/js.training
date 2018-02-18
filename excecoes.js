@@ -1,10 +1,10 @@
-         //exce��es
+         //exceções
          try{
             buscaEndereco('a');
          } catch(erro) {
             console.log('Erro: ' + erro);
          }
-         //exce��es personalizadas
+         //exceções personalizadas
          var x = 1;
          try{
             if(x < 5){
@@ -19,7 +19,7 @@
                if (x == ''){
                   throw 'valor não informado.';
                } 
-               if (isNaN(x)){ //se n�o � um n�mero
+               if (isNaN(x)){ //se não é um número
                   throw 'o dado informado não é um número.';
                }
                /*if (x < 10){
@@ -32,7 +32,7 @@
                console.log(x + ' ao quadrado = ' + x * x);
              } catch(err){
                   console.log('Número inválido: ' + err); 
-             } finally { //� executado independente do try catch
+             } finally { //é executado independente do try catch
                 console.log('numero ' + x);
              }   
          }
