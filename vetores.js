@@ -41,7 +41,7 @@ console.log('Adicionar ao início do Array');
 frutas.unshift('morango');
 console.log(frutas);
 
-//Procurar o índice de um item na Array
+//Procurar o índice de um item na Array. Quando não encontrado, retorna -1
 console.log('Procurar o índice de um item na Array');
 frutas = ['maçã', 'banana', 'laranja', 'morango', 'abacaxi', 'manga'];
 var posicao = frutas.indexOf('laranja');
